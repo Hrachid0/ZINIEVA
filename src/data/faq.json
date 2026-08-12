@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "question": {
+      "fr": "Quels sont les délais de livraison ?",
+      "ar": "ما هي مدة التوصيل؟"
+    },
+    "answer": {
+      "fr": "La livraison est effectuée sous 24h à 72h selon votre ville, partout au Maroc.",
+      "ar": "يتم التوصيل خلال 24 إلى 72 ساعة حسب مدينتكم، في جميع أنحاء المغرب."
+    }
+  },
+  {
+    "id": 2,
+    "question": {
+      "fr": "Comment puis-je payer ma commande ?",
+      "ar": "كيف يمكنني الدفع؟"
+    },
+    "answer": {
+      "fr": "Vous payez en espèces au moment de la réception de votre colis. Aucun paiement en ligne n'est demandé.",
+      "ar": "تدفعون نقداً عند استلام الطلب. لا حاجة لأي دفع إلكتروني."
+    }
+  },
+  {
+    "id": 3,
+    "question": {
+      "fr": "Comment passer une commande ?",
+      "ar": "كيف أقوم بالطلب؟"
+    },
+    "answer": {
+      "fr": "Choisissez votre produit, cliquez sur « Commander maintenant » et remplissez le formulaire. Nous vous appelons pour confirmer.",
+      "ar": "اختاروا المنتج، اضغطوا على «اطلب الآن» واملأوا الاستمارة. سنتصل بكم للتأكيد."
+    }
+  },
+  {
+    "id": 4,
+    "question": {
+      "fr": "Les produits sont-ils originaux ?",
+      "ar": "هل المنتجات أصلية؟"
+    },
+    "answer": {
+      "fr": "Chaque produit est sélectionné avec soin auprès de fournisseurs de confiance.",
+      "ar": "يتم اختيار كل منتج بعناية من موردين موثوقين."
+    }
+  },
+  {
+    "id": 5,
+    "question": {
+      "fr": "Puis-je modifier ou annuler ma commande ?",
+      "ar": "هل يمكنني تعديل أو إلغاء الطلب؟"
+    },
+    "answer": {
+      "fr": "Oui, il suffit de nous contacter par téléphone ou WhatsApp avant l'expédition.",
+      "ar": "نعم، يكفي التواصل معنا عبر الهاتف أو واتساب قبل الشحن."
+    }
+  }
+]

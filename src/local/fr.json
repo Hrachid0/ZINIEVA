@@ -1,0 +1,133 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "about": "À propos",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "menu": "Menu",
+    "close": "Fermer"
+  },
+  "home": {
+    "heroTitle": "La beauté, simplement.",
+    "heroSubtitle": "Des produits de beauté et compléments sélectionnés avec soin, pour elles et pour eux. Livrés partout au Maroc.",
+    "ctaPrimary": "Découvrir nos produits",
+    "ctaSecondary": "Voir les nouveautés",
+    "categories": "Nos catégories",
+    "featured": "Sélection ZINIEVA",
+    "new": "Nouveautés",
+    "bestSellers": "Les plus vendus",
+    "whyTitle": "Pourquoi ZINIEVA",
+    "why1": "Paiement à la livraison",
+    "why1Text": "Vous payez uniquement à la réception de votre commande.",
+    "why2": "Livraison partout au Maroc",
+    "why2Text": "Expédition sous 24h à 72h dans toutes les villes.",
+    "why3": "Produits sélectionnés",
+    "why3Text": "Une sélection restreinte, testée et pensée pour durer.",
+    "why4": "Commande simple et rapide",
+    "why4Text": "Trois champs suffisent. Nous vous appelons pour confirmer.",
+    "ctaTitle": "Une routine essentielle, rien de plus.",
+    "ctaText": "Découvrez notre sélection de soins, parfums et compléments.",
+    "viewAll": "Voir tout"
+  },
+  "product": {
+    "addToCart": "Ajouter au panier",
+    "view": "Voir le produit",
+    "orderNow": "Commander maintenant",
+    "cod": "Paiement à la livraison",
+    "quantity": "Quantité",
+    "available": "En stock",
+    "unavailable": "Rupture de stock",
+    "description": "Description",
+    "discount": "-{value}%",
+    "added": "Produit ajouté au panier",
+    "notFound": "Produit introuvable",
+    "back": "Retour aux produits"
+  },
+  "products": {
+    "title": "Nos produits",
+    "subtitle": "Soins, parfums et compléments sélectionnés avec soin.",
+    "search": "Rechercher un produit",
+    "allCategories": "Toutes les catégories",
+    "sort": "Trier",
+    "sortDefault": "Par défaut",
+    "sortPriceAsc": "Prix croissant",
+    "sortPriceDesc": "Prix décroissant",
+    "filterFeatured": "Sélection",
+    "filterNew": "Nouveautés",
+    "filterBest": "Meilleures ventes",
+    "empty": "Aucun produit ne correspond à votre recherche.",
+    "count": "{count} produit(s)"
+  },
+  "cart": {
+    "title": "Panier",
+    "empty": "Votre panier est vide.",
+    "continue": "Continuer mes achats",
+    "clear": "Vider le panier",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "free": "Offerte",
+    "total": "Total",
+    "orderNow": "Commander maintenant",
+    "remove": "Retirer"
+  },
+  "order": {
+    "title": "Finaliser la commande",
+    "subtitle": "Remplissez vos coordonnées, nous vous appelons pour confirmer.",
+    "fullName": "Nom complet",
+    "phone": "Numéro de téléphone",
+    "city": "Ville",
+    "address": "Adresse (optionnel)",
+    "submit": "Confirmer la commande",
+    "sending": "Envoi en cours...",
+    "summary": "Récapitulatif",
+    "cancel": "Annuler",
+    "errorName": "Veuillez saisir votre nom complet.",
+    "errorPhone": "Veuillez saisir un numéro de téléphone valide.",
+    "errorCity": "Veuillez saisir votre ville.",
+    "errorSubmit": "Une erreur est survenue. Merci de réessayer.",
+    "successTitle": "Merci pour votre commande !",
+    "successText": "Nous allons vous contacter prochainement pour confirmer votre commande.",
+    "backHome": "Retour à l'accueil"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Une question ? Nous répondons rapidement.",
+    "phone": "Téléphone",
+    "whatsapp": "WhatsApp",
+    "email": "E-mail",
+    "follow": "Nous suivre",
+    "formName": "Nom",
+    "formEmail": "E-mail",
+    "formMessage": "Message",
+    "send": "Envoyer",
+    "sent": "Merci, votre message a bien été envoyé."
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "subtitle": "Tout ce qu'il faut savoir avant de commander."
+  },
+  "about": {
+    "title": "À propos de ZINIEVA",
+    "p1": "ZINIEVA est une marque marocaine de beauté et d'accessoires, née d'une idée simple : proposer moins de produits, mais mieux choisis.",
+    "p2": "Notre sélection s'adresse autant aux femmes qu'aux hommes. Soins du visage, parfums, rituels quotidiens et compléments : chaque référence est retenue pour son utilité réelle et sa qualité.",
+    "p3": "Nous livrons partout au Maroc avec le paiement à la livraison, pour que commander reste simple et sans risque.",
+    "cta": "Découvrir la sélection"
+  },
+  "footer": {
+    "about": "ZINIEVA, marque marocaine de beauté et d'accessoires. Une sélection essentielle, livrée partout au Maroc.",
+    "navigation": "Navigation",
+    "customer": "Informations",
+    "delivery": "Livraison",
+    "cod": "Paiement à la livraison",
+    "terms": "Conditions générales",
+    "privacy": "Politique de confidentialité",
+    "social": "Réseaux",
+    "rights": "Tous droits réservés."
+  },
+  "common": {
+    "currency": "MAD",
+    "new": "Nouveau",
+    "bestSeller": "Best-seller"
+  }
+}

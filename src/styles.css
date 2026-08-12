@@ -1,0 +1,129 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * ZINIEVA design system.
+ * Ivory #F8F6F1 / Soft beige #EDE7DD / White / Charcoal #202020 / Taupe #8B8175 / Gold #B89B63
+ */
+
+@theme inline {
+  --radius-sm: 2px;
+  --radius-md: 3px;
+  --radius-lg: 4px;
+  --radius-xl: 6px;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-gold: var(--gold);
+  --color-taupe: var(--taupe);
+  --color-ivory: var(--ivory);
+  --color-beige: var(--beige);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --font-display: "Cormorant Garamond", "Noto Kufi Arabic", serif;
+  --font-sans: "Jost", "Noto Kufi Arabic", system-ui, sans-serif;
+}
+
+:root {
+  --radius: 3px;
+  --ivory: oklch(0.968 0.008 85);
+  --beige: oklch(0.925 0.014 82);
+  --background: oklch(0.968 0.008 85);
+  --foreground: oklch(0.245 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.245 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.245 0 0);
+  --primary: oklch(0.245 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.925 0.014 82);
+  --secondary-foreground: oklch(0.245 0 0);
+  --muted: oklch(0.925 0.014 82);
+  --muted-foreground: oklch(0.56 0.017 75);
+  --accent: oklch(0.7 0.062 80);
+  --accent-foreground: oklch(0.245 0 0);
+  --gold: oklch(0.7 0.062 80);
+  --taupe: oklch(0.56 0.017 75);
+  --destructive: oklch(0.55 0.19 25);
+  --destructive-foreground: oklch(0.985 0 0);
+  --border: oklch(0.885 0.012 82);
+  --input: oklch(0.885 0.012 82);
+  --ring: oklch(0.7 0.062 80);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    font-weight: 300;
+    letter-spacing: -0.01em;
+  }
+
+  [dir="rtl"] body {
+    font-family: "Noto Kufi Arabic", var(--font-sans);
+  }
+
+  [dir="rtl"] h1,
+  [dir="rtl"] h2,
+  [dir="rtl"] h3 {
+    font-family: "Noto Kufi Arabic", var(--font-display);
+  }
+}
+
+@utility container-z {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 80rem;
+  padding-inline: 1.25rem;
+}
+
+@utility eyebrow {
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--color-taupe);
+}
+
+@keyframes z-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@utility fade-up {
+  animation: z-fade-up 0.6s ease-out both;
+}

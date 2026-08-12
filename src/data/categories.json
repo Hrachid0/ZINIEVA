@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "slug": "soin-visage",
+    "name": { "fr": "Soin du visage", "ar": "العناية بالوجه" },
+    "image": "/images/products/cream-1.jpg"
+  },
+  {
+    "id": 2,
+    "slug": "parfums",
+    "name": { "fr": "Parfums", "ar": "العطور" },
+    "image": "/images/products/parfum-1.jpg"
+  },
+  {
+    "id": 3,
+    "slug": "homme",
+    "name": { "fr": "Homme", "ar": "رجال" },
+    "image": "/images/products/barbe-1.jpg"
+  },
+  {
+    "id": 4,
+    "slug": "complements",
+    "name": { "fr": "Compléments", "ar": "مكملات" },
+    "image": "/images/products/serum-1.jpg"
+  }
+]

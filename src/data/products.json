@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "slug": "serum-eclat-vitamine-c",
+    "categoryId": 1,
+    "name": { "fr": "Sérum Éclat Vitamine C", "ar": "سيروم الإشراق بفيتامين س" },
+    "shortDescription": {
+      "fr": "Un sérum léger pour un teint lumineux et unifié.",
+      "ar": "سيروم خفيف لبشرة مشرقة وموحدة."
+    },
+    "description": {
+      "fr": "Formulé à base de vitamine C stabilisée, ce sérum s'applique matin et soir sur une peau propre. Sa texture fluide pénètre rapidement et laisse la peau douce, lumineuse et confortable. Convient aux femmes comme aux hommes.",
+      "ar": "مركب بفيتامين س المثبت، يُستعمل صباحاً ومساءً على بشرة نظيفة. قوامه الخفيف يتغلغل بسرعة ويترك البشرة ناعمة ومشرقة ومريحة. مناسب للنساء والرجال."
+    },
+    "price": 249,
+    "oldPrice": 299,
+    "currency": "MAD",
+    "images": ["/images/products/serum-1.jpg"],
+    "featured": true,
+    "new": true,
+    "bestSeller": false,
+    "available": true
+  },
+  {
+    "id": 2,
+    "slug": "creme-hydratante-quotidienne",
+    "categoryId": 1,
+    "name": { "fr": "Crème Hydratante Quotidienne", "ar": "كريم الترطيب اليومي" },
+    "shortDescription": {
+      "fr": "Hydratation légère 24h, non grasse.",
+      "ar": "ترطيب خفيف يدوم 24 ساعة، غير دهني."
+    },
+    "description": {
+      "fr": "Une crème fondante qui hydrate durablement sans effet gras. Idéale sous le maquillage ou après le rasage. Texture neutre, parfum discret.",
+      "ar": "كريم ناعم يرطب لفترة طويلة دون ملمس دهني. مثالي قبل المكياج أو بعد الحلاقة. قوام محايد وعطر خفيف."
+    },
+    "price": 189,
+    "oldPrice": null,
+    "currency": "MAD",
+    "images": ["/images/products/cream-1.jpg"],
+    "featured": true,
+    "new": false,
+    "bestSeller": true,
+    "available": true
+  },
+  {
+    "id": 3,
+    "slug": "eau-de-parfum-noir-essentiel",
+    "categoryId": 2,
+    "name": { "fr": "Eau de Parfum Noir Essentiel", "ar": "عطر نوار إسونسييل" },
+    "shortDescription": {
+      "fr": "Un sillage boisé et unisexe, tenue longue durée.",
+      "ar": "عطر خشبي للجنسين بثبات طويل."
+    },
+    "description": {
+      "fr": "Notes de bergamote, cèdre et musc blanc. Un parfum sobre et élégant, pensé pour être porté au quotidien par les femmes comme par les hommes. Flacon 50 ml.",
+      "ar": "مكونات من البرغموت والأرز والمسك الأبيض. عطر أنيق وبسيط للاستعمال اليومي للنساء والرجال. حجم 50 مل."
+    },
+    "price": 399,
+    "oldPrice": 470,
+    "currency": "MAD",
+    "images": ["/images/products/parfum-1.jpg"],
+    "featured": true,
+    "new": false,
+    "bestSeller": true,
+    "available": true
+  },
+  {
+    "id": 4,
+    "slug": "huile-barbe-cheveux",
+    "categoryId": 3,
+    "name": { "fr": "Huile Barbe & Cheveux", "ar": "زيت اللحية والشعر" },
+    "shortDescription": {
+      "fr": "Nourrit, assouplit et discipline.",
+      "ar": "يغذي وينعم ويسهل التصفيف."
+    },
+    "description": {
+      "fr": "Un mélange d'huiles végétales qui nourrit la barbe et le cuir chevelu. Quelques gouttes suffisent pour un aspect soigné, sans effet gras.",
+      "ar": "مزيج من الزيوت النباتية يغذي اللحية وفروة الرأس. بضع قطرات تكفي لمظهر مرتب دون ملمس دهني."
+    },
+    "price": 159,
+    "oldPrice": 199,
+    "currency": "MAD",
+    "images": ["/images/products/barbe-1.jpg"],
+    "featured": false,
+    "new": true,
+    "bestSeller": true,
+    "available": true
+  },
+  {
+    "id": 5,
+    "slug": "complement-collagene-marin",
+    "categoryId": 4,
+    "name": { "fr": "Complément Collagène Marin", "ar": "مكمل الكولاجين البحري" },
+    "shortDescription": {
+      "fr": "Cure de 30 jours pour peau, cheveux et ongles.",
+      "ar": "برنامج 30 يوماً للبشرة والشعر والأظافر."
+    },
+    "description": {
+      "fr": "Une cure quotidienne de collagène marin associée à la vitamine C. À prendre le matin, pendant 30 jours. Complément alimentaire, ne remplace pas une alimentation variée.",
+      "ar": "جرعة يومية من الكولاجين البحري مع فيتامين س. يؤخذ صباحاً لمدة 30 يوماً. مكمل غذائي لا يعوض نظاماً غذائياً متوازناً."
+    },
+    "price": 279,
+    "oldPrice": null,
+    "currency": "MAD",
+    "images": ["/images/products/serum-1.jpg"],
+    "featured": true,
+    "new": true,
+    "bestSeller": false,
+    "available": true
+  },
+  {
+    "id": 6,
+    "slug": "coffret-rituel-visage",
+    "categoryId": 1,
+    "name": { "fr": "Coffret Rituel Visage", "ar": "طقم العناية بالوجه" },
+    "shortDescription": {
+      "fr": "Sérum + crème, le duo essentiel.",
+      "ar": "سيروم + كريم، الثنائي الأساسي."
+    },
+    "description": {
+      "fr": "Le duo sérum éclat et crème hydratante réuni dans un coffret élégant. Une idée cadeau simple et utile, pour elle comme pour lui.",
+      "ar": "سيروم الإشراق وكريم الترطيب في علبة أنيقة. فكرة هدية بسيطة ومفيدة، لها وله."
+    },
+    "price": 399,
+    "oldPrice": 438,
+    "currency": "MAD",
+    "images": ["/images/products/cream-1.jpg"],
+    "featured": false,
+    "new": false,
+    "bestSeller": true,
+    "available": true
+  }
+]

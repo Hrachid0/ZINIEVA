@@ -1,0 +1,18 @@
+{
+  "brandName": "ZINIEVA",
+  "phone": "+212 6 12 34 56 78",
+  "whatsapp": "212612345678",
+  "email": "contact@zinieva.ma",
+  "instagram": "https://instagram.com/zinieva",
+  "facebook": "https://facebook.com/zinieva",
+  "currency": "MAD",
+  "delivery": {
+    "fr": "Livraison partout au Maroc sous 24h à 72h.",
+    "ar": "التوصيل إلى جميع مدن المغرب خلال 24 إلى 72 ساعة."
+  },
+  "cod": {
+    "fr": "Paiement à la livraison, en toute confiance.",
+    "ar": "الدفع عند الاستلام، بكل ثقة."
+  },
+  "shippingFee": 0
+}
