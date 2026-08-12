@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "@tanstack/react-router";
+import { Link, useNavigate } from "@tanstack/react-router";
 import { Check, ShieldCheck } from "lucide-react";
 import { formatPrice, useApp } from "@/lib/store";
 import { isValidMoroccanPhone, submitOrder } from "@/lib/orders";
@@ -10,6 +10,7 @@ import { isValidMoroccanPhone, submitOrder } from "@/lib/orders";
  */
 export default function OrderForm({ items, total, onSuccess, onCancel }) {
   const { t, lang } = useApp();
+  const navigate = useNavigate();
   const [form, setForm] = useState({ fullName: "", phone: "", city: "", address: "" });
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
@@ -45,6 +46,7 @@ export default function OrderForm({ items, total, onSuccess, onCancel }) {
       });
       setDone(true);
       if (onSuccess) onSuccess();
+      navigate({ to: "/thankyou", replace: true });
     } catch {
       setSubmitError(t("order.errorSubmit"));
     } finally {
@@ -152,16 +154,6 @@ export default function OrderForm({ items, total, onSuccess, onCancel }) {
         <ShieldCheck className="h-4 w-4 text-gold" strokeWidth={1.4} />
         {t("product.cod")}
       </p>
-
-      {onCancel && (
-        <button
-          type="button"
-          onClick={onCancel}
-          className="mt-3 w-full py-2 text-xs text-muted-foreground transition-colors hover:text-foreground"
-        >
-          {t("order.cancel")}
-        </button>
-      )}
     </form>
   );
 }
