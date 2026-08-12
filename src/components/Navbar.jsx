@@ -33,11 +33,18 @@ export default function Navbar() {
   return (
     <header
       className={`sticky top-0 z-50 border-b transition-colors duration-300 ${
-        scrolled ? "border-border bg-background/95 backdrop-blur" : "border-transparent bg-background"
+        scrolled
+          ? "border-border bg-background/95 backdrop-blur"
+          : "border-transparent bg-background"
       }`}
     >
       <nav className="container-z flex h-18 items-center justify-between gap-4 py-3">
-        <Logo className="h-8 sm:h-10" />
+        <img
+          src="/logo-nobg.png"
+          alt="ZINIEVA"
+          className="h-12 w-auto object-contain"
+          loading="eager"
+        />
 
         <ul className="hidden items-center gap-8 md:flex">
           {links.map((link) => (
@@ -72,7 +79,11 @@ export default function Navbar() {
             onClick={() => setOpen((v) => !v)}
             aria-label={open ? t("nav.close") : t("nav.menu")}
           >
-            {open ? <X className="h-5 w-5" strokeWidth={1.4} /> : <Menu className="h-5 w-5" strokeWidth={1.4} />}
+            {open ? (
+              <X className="h-5 w-5" strokeWidth={1.4} />
+            ) : (
+              <Menu className="h-5 w-5" strokeWidth={1.4} />
+            )}
           </button>
         </div>
       </nav>
