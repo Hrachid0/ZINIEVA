@@ -5,7 +5,10 @@ export const Route = createFileRoute("/thankyou")({
   head: () => ({
     meta: [
       { title: "Merci — ZINIEVA" },
-      { name: "description", content: "Votre commande a bien été enregistrée. Merci pour votre confiance." },
+      {
+        name: "description",
+        content: "Votre commande a bien été enregistrée. Merci pour votre confiance.",
+      },
       { property: "og:title", content: "Merci — ZINIEVA" },
       { property: "og:description", content: "Merci pour votre commande chez ZINIEVA." },
       { property: "og:url", content: "/thankyou" },
@@ -25,7 +28,8 @@ function ThankYouPage() {
         </div>
         <h1 className="mt-6 text-3xl sm:text-4xl">Merci pour votre commande !</h1>
         <p className="mt-4 text-sm text-muted-foreground sm:text-base">
-          Votre commande a bien été enregistrée. Nous vous contacterons prochainement pour confirmer les détails.
+          Votre commande a bien été enregistrée. Nous vous contacterons prochainement pour confirmer
+          les détails.
         </p>
         <Link
           to="/"

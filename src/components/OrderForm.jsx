@@ -17,7 +17,8 @@ export default function OrderForm({ items, total, onSuccess, onCancel }) {
   const [done, setDone] = useState(false);
   const [submitError, setSubmitError] = useState("");
 
-  const update = (field) => (event) => setForm((prev) => ({ ...prev, [field]: event.target.value }));
+  const update = (field) => (event) =>
+    setForm((prev) => ({ ...prev, [field]: event.target.value }));
 
   async function handleSubmit(event) {
     event.preventDefault();
@@ -61,7 +62,9 @@ export default function OrderForm({ items, total, onSuccess, onCancel }) {
           <Check className="h-6 w-6 text-gold" strokeWidth={1.4} />
         </span>
         <h2 className="mt-5 text-2xl">{t("order.successTitle")}</h2>
-        <p className="mx-auto mt-2 max-w-md text-sm text-muted-foreground">{t("order.successText")}</p>
+        <p className="mx-auto mt-2 max-w-md text-sm text-muted-foreground">
+          {t("order.successText")}
+        </p>
         <Link
           to="/"
           className="mt-6 inline-flex items-center justify-center bg-foreground px-6 py-3 text-sm text-primary-foreground transition-opacity hover:opacity-85"
@@ -85,7 +88,12 @@ export default function OrderForm({ items, total, onSuccess, onCancel }) {
           <label className="eyebrow block" htmlFor="fullName">
             {t("order.fullName")}
           </label>
-          <input id="fullName" className={`mt-2 ${inputClass}`} value={form.fullName} onChange={update("fullName")} />
+          <input
+            id="fullName"
+            className={`mt-2 ${inputClass}`}
+            value={form.fullName}
+            onChange={update("fullName")}
+          />
           {errors.fullName && <p className="mt-1 text-xs text-destructive">{errors.fullName}</p>}
         </div>
 
@@ -110,7 +118,12 @@ export default function OrderForm({ items, total, onSuccess, onCancel }) {
           <label className="eyebrow block" htmlFor="city">
             {t("order.city")}
           </label>
-          <input id="city" className={`mt-2 ${inputClass}`} value={form.city} onChange={update("city")} />
+          <input
+            id="city"
+            className={`mt-2 ${inputClass}`}
+            value={form.city}
+            onChange={update("city")}
+          />
           {errors.city && <p className="mt-1 text-xs text-destructive">{errors.city}</p>}
         </div>
 
@@ -118,7 +131,12 @@ export default function OrderForm({ items, total, onSuccess, onCancel }) {
           <label className="eyebrow block" htmlFor="address">
             {t("order.address")}
           </label>
-          <input id="address" className={`mt-2 ${inputClass}`} value={form.address} onChange={update("address")} />
+          <input
+            id="address"
+            className={`mt-2 ${inputClass}`}
+            value={form.address}
+            onChange={update("address")}
+          />
         </div>
       </div>
 
