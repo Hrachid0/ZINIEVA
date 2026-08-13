@@ -39,12 +39,14 @@ export default function Navbar() {
       }`}
     >
       <nav className="container-z flex h-18 items-center justify-between gap-4 py-3">
-        <img
-          src="/logo-nobg.png"
-          alt="ZINIEVA"
-          className="h-16 w-auto object-contain"
-          loading="eager"
-        />
+        <Link to="/">
+          <img
+            src="/logo-nobg.png"
+            alt="ZINIEVA"
+            className="h-16 w-auto object-contain"
+            loading="eager"
+          />
+        </Link>
 
         <ul className="hidden items-center gap-8 md:flex">
           {links.map((link) => (
