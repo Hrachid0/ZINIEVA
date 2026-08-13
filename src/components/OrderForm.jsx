@@ -11,7 +11,7 @@ import { isValidMoroccanPhone, submitOrder } from "@/lib/orders";
 export default function OrderForm({ items, total, onSuccess, onCancel }) {
   const { t, lang } = useApp();
   const navigate = useNavigate();
-  const [form, setForm] = useState({ fullName: "", phone: "", city: "", address: "" });
+  const [form, setForm] = useState({ fullName: "", phone: "", city: "", address: "" ,price:0});
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
   const [done, setDone] = useState(false);
@@ -42,7 +42,7 @@ export default function OrderForm({ items, total, onSuccess, onCancel }) {
         product: items.map((item) => `${item.name[lang]} x${item.quantity}`).join(" | "),
         productId: items.map((item) => item.id).join(","),
         quantity: items.reduce((sum, item) => sum + item.quantity, 0),
-        total,
+        price :total,
         language: lang,
       });
       setDone(true);

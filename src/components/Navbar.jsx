@@ -42,7 +42,7 @@ export default function Navbar() {
         <img
           src="/logo-nobg.png"
           alt="ZINIEVA"
-          className="h-12 w-auto object-contain"
+          className="h-16 w-auto object-contain"
           loading="eager"
         />
 

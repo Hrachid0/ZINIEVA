@@ -14,7 +14,7 @@ export async function submitOrder(order) {
     product: order.product,
     productId: String(order.productId),
     quantity: String(order.quantity),
-    total: String(order.total),
+    price: String(order.price),
     language: order.language,
     orderDate: new Date().toISOString(),
   });
